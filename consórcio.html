@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==========SWIPER========= -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- ==========FONT_AWESOME========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vitória Caminhões - DAF</title>
+</head>
+<body>
+    <!-- ==========CONSORCIO_PAGE========== -->
+    <div class="home">
+      <div class="container1">
+          <nav>
+              <div class="logo">
+                <a href="index.html">
+                  <img src="imgs/imgLogo1.png" alt="" class="logo1" />
+              <img src="imgs/logo.png" alt="" />
+              </a>
+              </div>
+              <ul>
+                <li><a href="index.html">Quem somos</a></li>
+                <li><a href="trucks.html">Caminhões</a></li>
+                <li><a href="preownpage.html">Seminovos</a></li>
+                <li><a href="consórcio.html">Consórcio</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="accessories.html">Peças e Acessórios</a></li>
+                <button class="show"><a href="contact.html"><i class="fa-solid fa-user"></i>Contato</a></button>
+                <i class="fa-solid fa-xmark" id="cross"></i>
+            </ul>
+              <div class="right">
+                  <button><a href="contact.html"><i class="fa-solid fa-user"></i>Contato</a></button>
+              </div>
+              <div class="hamburger">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+          </nav>
+      </div>
+      </div>
+       <div class="consorico">
+        <div class="container">
+          <div class="left">
+              <h2>
+                  A ESCOLHA INTELIGENTE</h2>
+              <span></span>   
+              <p>Calcule o valor aproximado do plano de consórcio <br> para aquisição do caminhão DAF que melhor atende a <br> sua necessidade de transporte de cargas.</p>
+              <button>Saiba Mais</button>
+          </div>
+          <div class="bottom">
+              <div class="grid">
+                  <div class="col">
+                      <h4>Faça uma simulação</h4>
+                      <div class="All_btn">
+                          <button>Menor </button>
+                          <button>Maior</button>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="tab active">
+                          <h4>Escolha o valor da parcela:
+                          </h4>
+                          <div class="flex">
+                          <span>RS<span class="value"> 3,000</span></span>
+                          <span>RS 9,500</span>
+                           </div>
+                      <input type="range" max="9,500" min="3,500" class="range"  oninput="sliderChange(this.value)">
+                      </div>
+                      <div class="tab">
+                          <h4>Escolha o valor da parcela:</h4>
+                          <div class="flex">
+                          <span>RS 550,000</span>
+                          <span>RS 800,000</span>
+                           </div>
+                      <input type="range" max="800,000" min="550,000">
+                      </div>
+                  </div>
+                  <div class="col">
+                      <button>SIMULE</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+       </div>
+     <!-- ==========ABOUT========== -->
+    <div class="about consortium">
+        <div class="container">
+            <div class="heading">
+                <h1>DAF CONSÓRCIO</h1>
+                <span></span>
+                <p>Planejar é o caminho para alcançar. Simples e econômico, conheça os benefícios e forme um consórcio.
+                </p>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <img src="imgs/cf-semipesado.jpg.png" alt="">
+                    <h2>DAF CF</h2>
+                    <h3>Semipesado Rígido</h3>
+                    <span>7 litros</span>
+                    <div class="btns">
+                        <button>Eu quero essa versão</button>
+                        <button><i class="fa-solid fa-plus"></i>Ficha de dados</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="imgs/cf-rigido-1.jpg.png" alt="">
+                    <h2>DAF CF</h2>
+                    <h3>Rígido e Trator</h3>
+                    <span>11 litros</span>
+                    <div class="btns">
+                        <button>Eu quero essa versão</button>
+                        <button><i class="fa-solid fa-plus"></i>Ficha de dados</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- POPUP -->
+    <div class="popup">
+        <div class="left" id="hide">
+            <div class="item"><img src="./imgs/access_popup.jpg" alt=""></div>
+        </div>
+        <div class="right">
+            <img src="./imgs/access_icon.svg" alt="">
+        </div>
+    </div>
+    <!-- ==========MAP========== -->
+    <div class="map">
+        <div class="container">
+            <div class="all">
+                <h1>ONDE ESTAMOS
+                </h1>
+                <span>Faça-nos uma visita!</span>
+                <button><i class="fa-solid fa-truck-fast"></i>Entre em Contato</button>
+            </div>
+        </div>
+     </div>
+         <!-- ==========CONTACT========== -->
+         <div class="contact">
+            <div class="container">
+                <div class="all">
+                    <h1>QUERO RECEBER<br/>
+                    OPORTUNIDADES DE CONSÓRCIOS</h1>
+                    <input type="text" placeholder="Digite o seu nome">
+                    <input type="text" placeholder="Digite o seu melhor Email">
+                    <textarea name="" placeholder="Deixe-nos uma mensagem"></textarea>
+                    <div class="check">
+                        <input type="checkbox" name="" id="">
+                        <span>Li e concordo com a Política de Privacidade concedendo o uso dos meus dados.</span>
+                    </div>
+                    <button><i class="fa-solid fa-paper-plane"></i>Enviar</button>
+                </div>
+            </div>
+         </div>
+    <!-- --------FOOTER-Section--------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="all">
+          <div class="col_one">
+            <div class="logo">
+              <img src="imgs/imgLogo1.png" alt="not show!" />
+            </div>
+            <span
+              >Faz parte do nosso DNA,<br>oferecer os melhores produtos afim de que cada cliente tenha um ótimo pós venda. .
+               <br></span
+            >
+          </div>
+          <div class="col_one">
+            <h1>
+              Fique por dentro</h1>
+            <ul>
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Caminhões</a></li>
+              <li><a href="#">Seminovos</a></li>
+              <li><a href="#">Consórcio</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Peças e Acessórios</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+          </div>
+          <div class="col_one">
+            <h1>
+              Outros sites da DAF</h1>
+            <ul>
+              <li><a href="#">PACCAR Financial</a></li>
+              <li><a href="#">Peças Genuinas</a></li>
+              <li><a href="#">Peças Multimarcas TRP</a></li>
+              <li><a href="#">DAF Webshop</a></li>
+            </ul>
+          </div>
+          <div class="col_one">
+              <h1>
+                  Redes sociais</h1>
+              <div class="links">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+        </div>
+        <div class="center_footer">
+            <p>Direitos Reservados © 2024 Vitória Caminhões
+          </p>
+        </div>
+      </div>
+    </div>
+   
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 15,
+      autoplay:true,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {  
+    0: {
+      slidesPerView: 1},
+    850: {
+      slidesPerView: 3,spaceBetween:20},
+  },
+    });
+  </script>
+</body>
+</html>

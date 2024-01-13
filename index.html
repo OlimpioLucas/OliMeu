@@ -1,76 +1,296 @@
 <!DOCTYPE html>
-<html>
-
-    <head>
-        <title>Restaurante - Seja bem-vindo!</title>
-
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/fontawesome.css">
-        <link rel="stylesheet" href="./css/main.css">
-    </head>
-
-    <body>
-
-        <section class="header">
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==========SWIPER========= -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- ==========FONT_AWESOME========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Daf - Vitória Caminhões</title>
+</head>
+<body>
+    <!-- ==========HOME========== -->
+    <div class="home">
+        <div class="container1">
+            <nav>
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="imgs/imgLogo1.png" alt="" class="logo1" />
+                <img src="imgs/logo.png" alt="" />
+                </a>
+                </div>
+                <ul>
+                  <li><a href="index.html">Quem somos</a></li>
+                  <li><a href="trucks.html">Caminhões</a></li>
+                  <li><a href="preownpage.html">Seminovos</a></li>
+                  <li><a href="consórcio.html">Consórcio</a></li>
+                  <li><a href="services.html">Serviços</a></li>
+                  <li><a href="accessories.html">Peças e Acessórios</a></li>
+                  <button class="show"><a href="contact.html"><i class="fa-solid fa-user"></i>Contato</a></button>
+                  <i class="fa-solid fa-xmark" id="cross"></i>
+              </ul>
+                <div class="right">
+                    <button><a href="contact.html"><i class="fa-solid fa-user"></i>Contato</a></button>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+        </div>
+        <div class="carousel heightone">
+            <div class="slide-container">
+              <div class="slide">
+                <div class="img">
+                    <img src="imgs/Banner_site3.jpg" alt="">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img">
+                    <img src="imgs/Banner_site5.jpg" alt="">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img">
+                    <img src="imgs/Banner_site9.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="overlay">
+                <div class="center">
+                    <h2>
+                        VAMOS COMEÇAR A VIAJAR</h2>
+                    <p>A vitória Caminhões é uma concessionária DAF consolidada no mercado, pois traz a bagagem de seus sócios há mais de 30 anos no mercado de transporte.</p>
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+          </div>
+                   <!-- ==========SERVICES========== -->
+         <div class="services">
             <div class="container">
-                <nav class="navbar navbar-expand-lg pl-0 pr-0">
-                    <a class="navbar-brand" href="#">
-                        <img src="./img/logo.png"  width="160"  class="img-logo"  alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="colapse" data-target="#navbarNavDropdown">
-                        <span class="navbar-toggler-icon">
-                            <i class="fas fa-bars"></i>
-                        </span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ml-auto mr-auto">
-                            <li class="nav-item">
-                                <a href="#reservas" class="nav-link"><b>Reserva</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#servicos" class="nav-link"><b>Serviços</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#cardapio" class="nav-link"><b>Cadápio</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#depoimento" class="nav-link"><b>Depoimentos</b></a>
-                            </li>
-                        </ul>
+                <div class="heading">
+                    <h1>Confiança & Credibilidade</h1>
+                    <span></span>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="imgs/DAF Viana - 3 1.png" alt="">
                     </div>
-                </nav>
-            </div>    
-        </section>
-        
-        <section class="banner">
-
-        </section>
-
-        <section class="servicos">
-
-        </section>
-
-        <section class="cardapio">
-
-        </section>
-
-        <section class="depoimentos">
-
-        </section>
-
-        <section class="reserva">
-
-        </section>
-
-        <footer>
-
-        </footer>
-
-        <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="./js/modernizr-3.5.0.min.js"></script>
-        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="./js/popper.min.js"></script>
-
-    </body>
+                    <div class="col">
+                        <span>Sobre Nós</span>
+                        <h1>Faz parte do nosso<br>DNA</h1>
+                        <p>A Vitória Caminhões, concessionaria DAF, com filial em Viana/ES e filial em Feira de Santana/BA, conta com uma equipe de profissionais especializados em apresentar o melhor caminhão para seu negócio.</p><br>
+                        <p>Possui uma equipe de vendas treinada e excelente estrutura de atendimento,   ampla oficina com equipamentos de alta tecnologia e um completo estoque de peças e acessórios originais DAF.</p>
+                        <button>Conheça<i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button>vendas<i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
     
+                </div>
+            </div>
+        </div>
+     <!-- ==========ABOUT========== -->
+    <div class="about">
+        <div class="container">
+            <div class="heading">
+                <h1>Escolha o Daf que mais combina com você</h1>
+                <span></span>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <img src="imgs/cf-semipesado.jpg.png" alt="">
+                    <h2>DAF CF</h2>
+                    <h3>Semipesado Rígido</h3>
+                    <span>7 litros</span>
+                    <div class="btns">
+                        <button>Eu quero essa versão</button>
+                        <button><i class="fa-solid fa-plus"></i>Ficha de dados</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="imgs/cf-rigido-1.jpg.png" alt="">
+                    <h2>DAF CF</h2>
+                    <h3>Rígido e Trator</h3>
+                    <span>11 litros</span>
+                    <div class="btns">
+                        <button>Eu quero essa versão</button>
+                        <button><i class="fa-solid fa-plus"></i>Ficha de dados</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="imgs/cf-offroad.jpg.png" alt="">
+                    <h2>DAF CF</h2>
+                    <h3>OFF-Road</h3>
+                    <span>13 litros</span>
+                    <div class="btns">
+                        <button>Eu quero essa versão</button>
+                        <button><i class="fa-solid fa-plus"></i>Ficha de dados</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="imgs/xf.jpg.png" alt="">
+                    <h2>DAF XF</h2>
+                    <h3>OFF-Road</h3>
+                    <span>13 litros</span>
+                    <div class="btns">
+                        <button>Eu quero essa versão</button>
+                        <button><i class="fa-solid fa-plus"></i>Ficha de dados</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========TESTINONIAL========== -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="heading">
+                <h1>SERVIÇOS ESPECIAIS</h1>
+                <span></span>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <img src="./imgs/ImgServico1.2.jpg.png" alt="">
+                    <h2>Peças Genuínas DAF</h2>
+                    <h3>Peças e Acessórios</h3>
+                    <span>As peças genuínas são desenvolvidas especificamente para o seu veículo DAF.</span>
+                    <button class="button">Agender visita</button>
+                </div>
+                <div class="col">
+                    <img src="./imgs/ImgServico3.2.jpg.png" alt="">
+                    <h2>Peças Genuínas PACCAR</h2>
+                    <h3>Peças e Acessórios</h3>
+                    <span>Trabalhamos com a linha completa de peças genuínas para o seu motor exclusivo PACCAR MX13.</span>
+                    <button class="button">Agender visita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+         <!-- ==========BLOGS========== -->
+         <div class="blogs">
+            <div class="container">
+                <div class="heading">
+                    <h1>Onde Estamos</h1>
+                    <span></span>
+                  </div>
+                <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="col">
+            <img src="imgs/DAF Viana - 8.jpg" alt="">
+            <h2><i class="fa-solid fa-location-dot"></i>Viana ES</h2>
+            <h4><b>Endereço:</b>xxxx– xxx</h4>
+            <span>Telefone: (xx) xxxx</span>
+            <h4> CEP: xxxxx</h4>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="col">
+            <img src="imgs/DAF Viana - 25.jpg" alt="">
+            <h2><i class="fa-solid fa-location-dot"></i>Feira de Santana</h2>
+            <h4><b>Endereço: </b> xxxx</h4>
+            <span>xxxx</span>
+            <h4> CEP: xxxx</h4>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="col">
+            <img src="imgs/DAF Viana - 26.jpg" alt="">
+            <h2><i class="fa-solid fa-location-dot"></i>Vitória da Conquista (Ponto de atendimento TRP)</h2>
+            <h4><b>Endereço: </b>xxxx</h4>
+            <span>Telefone:xxxxx</span>
+            <h4> CEP: xxxx</h4>
+            <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>  
+            </div>
+        </div>
+    <!-- --------FOOTER-Section--------- -->
+    <div class="footer">
+        <div class="container">
+          <div class="all">
+            <div class="col_one">
+              <div class="logo">
+                <img src="imgs/imgLogo1.png" alt="not show!" />
+              </div>
+              <span
+                >Faz parte do nosso DNA,<br>oferecer os melhores produtos afim de que cada cliente tenha um ótimo pós venda. .
+                 <br></span
+              >
+            </div>
+            <div class="col_one">
+              <h1>
+                Fique por dentro</h1>
+              <ul>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Caminhões</a></li>
+                <li><a href="#">Seminovos</a></li>
+                <li><a href="#">Consórcio</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Peças e Acessórios</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            </div>
+            <div class="col_one">
+              <h1>
+                Outros sites da DAF</h1>
+              <ul>
+                <li><a href="#">PACCAR Financial</a></li>
+                <li><a href="#">Peças Genuinas</a></li>
+                <li><a href="#">Peças Multimarcas TRP</a></li>
+                <li><a href="#">DAF Webshop</a></li>
+              </ul>
+            </div>
+            <div class="col_one">
+                <h1>
+                    Redes sociais</h1>
+                <div class="links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+          </div>
+          <div class="center_footer">
+              <p>Direitos Reservados © 2024 Vitória Caminhões
+            </p>
+          </div>
+        </div>
+      </div>
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 15,
+      autoplay:true,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {  
+    0: {
+      slidesPerView: 1},
+    850: {
+      slidesPerView: 3,spaceBetween:20},
+  },
+    });
+  </script>
+</body>
 </html>
